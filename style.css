@@ -13,9 +13,9 @@ audio:not([controls]) { display: none; height: 0; }
 
 [hidden], template { display: none; }
 
-html {  scroll-behavior: smooth;  background: #fff; color: #000; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+html { scroll-behavior: smooth;  background: #fff; color: #000; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 
-html, button, input, select, textarea { font-family: sans-serif; }
+html, button, input, select, textarea { font-family: 'Dancing Script', cursive; }
 
 body { margin: 0; }
 
@@ -43,7 +43,7 @@ dfn { font-style: italic; }
 
 mark { background: #ff0; color: #000; }
 
-code, kbd, pre, samp { font-family: monospace, serif; font-size: 1em; }
+code, kbd, pre, samp { font-family: 'Dancing Script', cursive; font-size: 1em; }
 
 pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; }
 
@@ -94,7 +94,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 *, *:before, *:after { -moz-box-sizing: border-box; box-sizing: border-box; }
 
 /* Global Styles */
-body { font-family: "Open Sans", Arial, sans-serif; font-size: 16px; font-weight: 300; line-height: 1.7; background-color: #a7bbb0; color: #898670; }
+body { font-family: 'Dancing Script', cursive; font-size: 16px; font-weight: 300; line-height: 1.7; background-color: #a7bbb0; color: #898670; }
 
 a { text-decoration: none; color: #f16a54; font-weight: 400; }
 

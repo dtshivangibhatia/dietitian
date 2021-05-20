@@ -161,6 +161,7 @@
 	padding: 20px 0;
 
 	.entry-title{
+		font-family: 'Dancing Script', cursive;
 		font-weight: 300;
 		@include em(48);
 		color: $strong-color;

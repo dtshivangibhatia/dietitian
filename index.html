@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+		
+		<title>Diatecian</title>
+		<!-- Loading third party fonts -->
+		<link rel="shortcut icon" type="image/x-icon" href="./images/girl.png" />
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|" rel="stylesheet" type="text/css">
+		<link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="fonts/iconmoon.css" rel="stylesheet" type="text/css">
+		<!-- Loading main css file -->
+		<link rel="stylesheet" href="style.css">
+		
+		<!--[if lt IE 9]>
+		<script src="js/ie-support/html5.js"></script>
+		<script src="js/ie-support/respond.js"></script>
+		<![endif]-->
+
+	</head>
+
+
+	<body class="homepage">
+		
+		<div id="site-content">
+			<header class="site-header">
+				<div class="container">
+					<a href="index.html" id="branding" class="pull-left">
+						<h1 class="site-title">Dt. Shivangi Bhatia</h1>
+					</a>
+					<!-- Default snippet for navigation -->
+					<div class="main-navigation pull-right">
+						<button type="button" class="menu-toggle"><i class="fa fa-bars"></i></button>
+						<ul class="menu">
+							<li class="menu-item"><a href="#about">About</a></li>
+							<li class="menu-item"><a href="#services">Services</a></li>
+							<li class="menu-item"><a href="#contact">Contact</a></li>
+							<li class="menu-item"><a href="#reviews">Reviews</a></li>
+						</ul> <!-- .menu -->
+					</div> <!-- .main-navigation -->
+
+					<div class="mobile-navigation"></div>
+				</div>
+			</header> <!-- .site-header -->
+
+			<div class="hero">
+				<div class="container">
+					<h4 class="site-title">Almanac to healthy lifestyle</h4>
+					<figure>
+						<img src="./images/girl.png" width="136px" height="200px">
+					</figure>
+					<p class="site-title">by</p>
+					<h2 class="site-title">Dt. Shivangi Bhatia</h2>
+					<small class="site-description">Clinical & Sports Nutritionist</small>
+				</div>
+			</div>
+
+			<main class="main-content">
+				<div class="cooking-section" id="about">
+					<div class="author-bio">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-5">
+									<figure class="profile-picture">
+										<img src="images/about.png" alt="about">
+									</figure>
+								</div>
+								<div class="col-md-6 col-md-offset-1">
+									<h2 >About</h2>
+									<p>Dietician Shivangi Bhatia is actively working in the field of weight management and lifestyle disorders. Every day she wakes up she focus on making people lifestyle healthy. She believes in natural way of achieving a healthy lifestyle and do not endorse artificial methods like machines, medicines, supplements etc.</p>
+									<p>The mantra of her life is “Make small changes in your life and eat local.” She believes the key to a fit body is a fit mind & mental state. As a Diet Coach, she is passionate about people understanding the importance of diet & nutrition in their fitness journey.</p>
+									<p>She also believes that a good diet & exercise regime not only changes your body. It changes your mind, your mood, your attitude. "It does not matter how slowly you go, as long as you don't stop." She helps people implement these theories in practice in order to achieve results.</p>
+									<p class="aboutr">She deals with individuals who are obese or suffering from lifestyle disorders namely - diabetes, thyroid, hypertension etc. She helps attain people healthy lifestyle by providing personalised diet plans and by motivating diet counselling sessions. Looking after your health today, gives you a better health for tomorrow!</p>
+									<p class="aboutr">You can view our reviews and experience of our clients who have successfully achieved their goals through balanced diet.</p>
+									<p class="aboutr">NO Fad / Crash Diets, NO Starvations, No Gadgets! Shivangi’s diets aims at overall nutritional correction with comprehensive individual assessment, with long term results and benefits.</p>
+									<p class="aboutr">You can view the reviews and experience of her clients who have successfully achieved their goals through balanced diet.</p>
+									<p class="aboutr">She believe, a diet is only right for you when you can follow it for life time.</p>
+									<a class="button" id="aboutsb" onclick="showAbout()">Read more</a>
+									<a class="button" id="abouthb" onclick="hideAbout()">Read less</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div> <!-- .cooking-section -->
+				<div class="fruits-section" id="services">
+					<div class="container">
+						<div class="content">
+								
+								<h2 class="entry-title">Services</h2>
+
+								<hr>
+
+								<div class="row flex-container">
+									<div class="col-md-3">
+										<div class="feature">
+											<div><img src="images/weight.png" width="100px" height="100px"></div>
+											<p class="feature-title">Weight Management</p>
+											<p>Diet and exercise need to be balanced in order to achieve successful weight loss or weight gain. You can exercise as much as you'd like but if you are not eating healthy, you will not receive the full benefit of weight loss, and vice versa.</p>
+											
+											<p id='weight'>Shivangi’s main goal is to educate on ways to incorporate healthy eating and exercise into your lifestyle and create an individualized plan to achieve your goals. 
+												The plan will be customized as per your taste preferences, local food availability and most importantly – your fitness goals.</p>
+												<a class="button" id='wsb' onclick="hide(['wsb']); show(['whb','weight'])">Read more</a>
+												<a class="button" id='whb' onclick="show(['wsb']); hide(['whb','weight'])">Read less</a>			
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="feature">
+											<div><img src="images/pcod.png" width="100px" height="100px"></div>
+											<p class="feature-title">Reverse PCOS/PCOD</p>
+											<p>Hormones are important for regulating most major bodily processes, so a hormone imbalance can affect a wide range of bodily functions. </p>
+											<p id='pcod'>Post Natal period is the time when nutrient needs are greater in order to fulfill the baby’s needs along with you. You might want to lose weight post-delivery but you need to be patient enough so that your baby gets the correct nutrition in their crucial growth stage. 
+												Losing those extra pounds assumes topmost priority. Post-pregnancy days are filled with uncertainties and insecurities. Healing uterus, sleepless nights, and birthing scars. Although getting into the habit of eating healthy should always be followed, it is important to note that your body needs adequate time to recover from labor as well. A healthy diet is a key element of getting back in shape. You need to be careful about the food you intake after pregnancy.
+												As a mother’s body needs proper nourishment to refuel the loss of various vitamins and minerals. During this phase, a lot of mothers face the problem of scanty milk supply and also the post-patrum depression is at bay. Shivangi focuses on providing a balance diet plan based on your age, activity level, and weight loss goals which help mothers increasing milk production, maintaining the nutritional needs and also making them heal faster.</p>
+												<a class="button" id='psb' onclick="hide(['psb']); show(['phb','pcod'])">Read more</a>
+												<a class="button" id='phb' onclick="show(['psb']); hide(['phb','pcod'])">Read less</a>			
+			
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="feature">
+											<div><img src="images/diabetes.png" width="100px" height="100px"></div>
+											<p class="feature-title">Diabetes Management</p>
+											<p>Pellentesque erat erat mattis feugiat pharetra, viverra nec mauris. </p>
+											<p id='diabetes'>Nullam sed risus aliquam congue nunc ac convallis mi. </p>
+											<a class="button" id='disb' onclick="hide(['disb']); show(['dihb','diabetes'])">Read more</a>
+											<a class="button" id='dihb' onclick="show(['disb']); hide(['dihb','diabetes'])">Read less</a>			
+
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="feature">
+											<div><img src="images/thyroid.png" width="100px" height="100px"></div>
+											<p class="feature-title">Thyroid Management</p>
+											<p>With the rise of the industrial and packaged food industry we are also seeing a boom in metabolic diseases such as thyroid. </p>
+											<p id='thyroid'>
+												Hypothyroid is a medical condition in which the thyroid gland does not make enough thyroid hormone. Despite the fact that this hormone is necessary for growth, repair, and metabolism. As a result, hypothyroidism causes fatigue, dry skin, diarrhoea, and the ability to gain weight quickly.
+												Hyperthyroid is a medical when your thyroid gland produces more thyroid hormones than your body requires, which is also known as hyperactive thyroid. The thyroid gland is a tiny butterfly-shaped gland located at the front of the neck. Thyroid hormones affect almost every organ in the body, including the rate at which your heart beats, as they manage how the body consumes energy.
+												The thyroid usually causes slow metabolism. As per research, focuses on the right diet and exercise can help you boost your thyroid hormone activity. 
+												Shivangi’s goal is to correct metabolic derangements and reverse clinical progression as indicated with normal blood levels of thyroid-stimulating hormone (TSH) and free thyroxine (T4). The thyroid Management Plan is designed in such a way that a person can not only achieve weight loss but also fulfill the nutritional requirement as per the lifestyle and dietary preferences. The diet plan will be customized as per your taste preferences and availability of local food.</p>
+												<a class="button" id='tsb' onclick="hide(['tsb']); show(['thb','thyroid'])">Read more</a>
+												<a class="button" id='thb' onclick="show(['tsb']); hide(['thb','thyroid'])">Read less</a>			
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="feature">
+											<div><img src="images/running.png" width="100px" height="100px"></div>
+											<p class="feature-title">Sports Nutrition</p>
+											<p>Pellentesque erat erat mattis feugiat pharetra, viverra nec mauris.</p>
+											<p id="sports"> Nullam sed risus aliquam congue nunc ac convallis mi. </p>
+											<a class="button" id='ssb' onclick="hide(['ssb']); show(['shb','sports'])">Read more</a>
+											<a class="button" id='shb' onclick="show(['ssb']); hide(['shb','sports'])">Read less</a>			
+
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="feature">
+											<div><img src="images/heart.png" width="100px" height="100px"></div>
+											<p class="feature-title">Cholesterol Management</p>
+											<p>Younger adults are developing problems in maintaining a healthy lipid profile.</p>
+											<p id='cholesterol'> This is primarily occurring due to negligence of diet, physical activity, and hormonal imbalance. It is not uncommon to find young men and women who have erratic lipid levels including high levels of LDL cholesterol (also called bad cholesterol) and low levels of HDL cholesterol (good cholesterol).
+												Eating out regularly at restaurants and from roadside stalls is associated with a bulging belly and higher accumulation of liver fat. Besides high intake of deep fried and oily foods such as potato chips, papad, pakoras, donuts, etc, eating large meals rich in carbohydrates are also associated with elevated levels of bad cholesterol.
+												Shivangi can help you in maintaining your lifestyle by doing little moderation in your diet and eating habits, also she will give you the food stuff which are local, easily available and are of your taste and likes.</p>
+												<a class="button" id='csb' onclick="hide(['csb']); show(['chb','cholesterol'])">Read more</a>
+												<a class="button" id='chb' onclick="show(['csb']); hide(['chb','cholesterol'])">Read less</a>			
+											</div>
+									</div>
+									<div class="col-md-3">
+										<div class="feature">
+											<div><img src="images/pregnant.png" width="100px" height="100px"></div>
+											<p class="feature-title">Post Pregnancy Nutrition & Weight loss plan</p>
+											<p>Pellentesque erat erat mattis feugiat pharetra, viverra nec mauris.</p>
+											<p id="pregnant">Nullam sed risus aliquam congue nunc ac convallis mi. </p>
+											<a class="button" id='psb' onclick="hide(['psb']); show(['phb','pregnant'])">Read more</a>
+											<a class="button" id='phb' onclick="show(['psb']); hide(['phb','pregnant'])">Read less</a>			
+									</div>
+									</div>
+									<div class="col-md-3">
+										<div class="feature">
+											<div><img src="images/detox.png" width="100px" height="100px"></div>
+											<p class="feature-title">4 Day Detox Plan</p>
+											<p>Almost everyone want to have a healthy mind, a lean and fit body, and soft and supple skin. </p>
+											<p id='detox'>In order to do this, you must combine a structured training routine with a nutritionally balanced diet. However, before doing anything else, it is necessary to detox the body through a thorough cleansing process in order to eliminate harmful toxins. Detoxification helps in boosting your immune system and deeply cleanses your body of all the accumulated waste that makes you vulnerable to nausea, fatigue and skin problems.
+												This 4-day Detox Plan will help get you in stabilizing your insulin/blood sugar levels in the body, giving rest to the digestive system, no water retention, no bloating and complete detox.</p>
+												<a class="button" id='dsb' onclick="hide(['dsb']); show(['dhb','detox'])">Read more</a>
+												<a class="button" id='dhb' onclick="show(['dsb']); hide(['dhb','detox'])">Read less</a>			
+										</div>
+									</div>
+								<hr>
+									</div>
+						</div>
+					</div>
+				</div> <!-- .restaurant-section -->
+				<div class="fullwidth-block restaurant-section category-block" id="contact">
+					<div class="container">
+							
+							<h2 class="entry-title middle">Get started in 2 easy steps!</h2>
+							<div class="row flex-container-mid">
+								<div class="col-md-3">
+									<div class="feature color-green">
+										<div><img src="images/form.png" width="100px" height="100px"></div>
+										<p>Step 1: Choose your program & fill up the form.</p>
+									</div>
+								</div>
+							</div>
+								
+							<div class="contact-form">
+								<div class="row">
+									<div class="col-md-5">
+										<input id='name' type="text" placeholder="Your name...">
+										<input id='email' type="text" placeholder="Email...">
+										<input id='contactNo' type="tel" placeholder="Phone number...">
+										<input id='address' type="text" placeholder="Address...">
+									</div>
+									<div class="col-md-7">
+										<input id='med' type="text" placeholder="Medical Condition(if any)...">
+										<textarea id='qus' placeholder="Ask a question..."></textarea>
+										<input type="submit" value="Send Whatsaap!" onclick="sendEmail()">
+									</div>
+								</div>
+							</div>
+							<div class="row flex-container-mid">
+								<div class="col-md-3 middle">
+									<div class="feature color-green">
+										<div ><img src="images/payment.png"  width="100px" height="100px"></div>
+										<p>Step 2: Make the payment & get your customised plan.</p>
+									</div>
+									<h4>Internet Banking:</h4>
+									<p>
+										Holder name: Shivangi Bhatia <br>
+										Account no: 0167000101390471 <br>
+										IFS Code: PUNB0016700
+									</p>
+									<h4>UPI</h4>
+									<p>
+										7303020193@paytm
+									</p>
+								</div>
+							</div>
+							
+							<div class="contact-detail">
+								<span class="location"><img src="images/icon-map-marker-alt.png"> Sec-49, Sainik Colony, Faridabad</span>
+								<span class="email"><img src="images/icon-envelope.png"> <a href="mailto:office@companyname.com">dtshivangibhatia@gmail.com</a></span>
+								<span class="phone"><img src="images/icon-phone.png"> <a href="tel:9319316155">+91 9319 3161 55</a></span>
+							</div>
+						</div>
+					</div>	
+
+			</main> <!-- .main-content -->
+			
+			<footer class="site-footer">
+				<div class="container">
+					<i class="icon-cupcake logo"></i>
+					<nav class="footer-navigation">
+						<a href="#about">About</a>
+						<a href="#services">Services</a>
+						<a href="#contact">Contact</a>
+						<a href="#reviews">Reviews</a>
+					</nav>
+
+					<div class="social-links">
+						<a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+						<a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+					</div>
+					<div class="colophon">
+						<p>Copyright 2021 Almanac. All right reserved</p>
+					</div>
+				</div>
+			</footer>
+
+		</div>
+
+		
+
+		<script src="js/jquery-1.11.1.min.js"></script>
+		<script src="js/plugins.js"></script>
+		<script src="js/app.js"></script>
+		<script src="./services/wa.js"></script>
+		<script src="./js/hide-content.js"></script>
+
+	</body>
+
+</html>

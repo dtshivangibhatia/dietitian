@@ -616,6 +616,12 @@ p { margin-top: 0; }
 .between-text{
   margin-bottom: -40px;
 }
+.phone{
+  font-family: 'Dancing Script', cursive;
+}
+.move{
+  position: absolute;
+}
 .flex-container {
   display: flex;
   flex-wrap: wrap;

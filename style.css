@@ -18,6 +18,9 @@ html { scroll-behavior: smooth;  background: #fff; color: #000; -webkit-text-siz
 html, button, input, select, textarea { font-family: 'Playfair Display', serif; }
 
 body { margin: 0; }
+.about-text > p{ 
+  text-align:justify
+}
 
 a { background: transparent; }
 a:focus { outline: thin dotted; }

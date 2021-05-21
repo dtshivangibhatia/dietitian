@@ -635,7 +635,7 @@ p { margin-top: 0; }
 .aboutr, #abouthb, #weight, #detox, #sports, #cholesterol, #pregnant, #thyroid, #diabetes, #pcod{
   display:none;
 }
-#wsb, #dsb, #ssb, #csb, #psb, #tsb, #disb, #psb{
+#wsb, #dsb, #ssb, #csb, #psb, #tsb, #disb, #pcsb{
   position: absolute;
   display: inline-block;
   left: 35%;
@@ -643,14 +643,14 @@ p { margin-top: 0; }
 }
 @media (max-width: 992px) {
   
-  #wsb, #dsb, #ssb, #csb, #psb, #tsb, #disb, #psb{
+  #wsb, #dsb, #ssb, #csb, #psb, #tsb, #disb, #pcsb{
     position: absolute;
     display: inline-block;
     bottom: 0px;
   }
 }
 
-#whb, #dhb, #shb, #chb, #phb, #thb, #dihb, #phb{
+#whb, #dhb, #shb, #chb, #phb, #thb, #dihb, #pchb{
   display:none;
 }
 
